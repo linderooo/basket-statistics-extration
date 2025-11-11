@@ -2,7 +2,13 @@ import fitz
 import pandas as pd
 
 
-
+lag = (50, 140, 500, 145)
+competition = (50, 160, 380, 170)  # Coordinates for the first box
+date = (50, 185, 200, 200)  # Coordinates for the first box
+arena = (120, 185, 360, 190)  # Coordinates for the first box
+matchnr = (380, 185, 600, 190)  # Coordinates for the second box
+Column1 = (250, 240, 360, 700)  # Coordinates for the second box
+Column2 = (400, 240, 520, 700)  # Coordinates for the second box
 
 
 
